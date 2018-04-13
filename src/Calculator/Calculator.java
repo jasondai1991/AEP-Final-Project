@@ -1,13 +1,13 @@
 package Calculator;
 
 public class Calculator {
-    private String name;
+    private String MathExpression;
 
     public Calculator(String name) {
-        this.name = name;
+        this.MathExpression = name;
     }
 
     public String getName() {
-        return name;
+        return MathExpression;
     }
 }
